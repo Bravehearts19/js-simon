@@ -53,7 +53,7 @@ function runScript () {
     const userNumberArray = [];
     const userCorrectNumberArray = [];
 
-    setTimeout(() => {challengeToUser(randomNumberArray, userNumberArray, userCorrectNumberArray)}, 4000);    
+    setTimeout(() => {challengeToUser(randomNumberArray, userNumberArray, userCorrectNumberArray)}, 30000);    
 }
 
 runScript();
